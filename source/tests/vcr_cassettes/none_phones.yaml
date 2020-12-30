@@ -1,0 +1,32 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://challenge-business-sector-api.meza.talkdeskstg.com/sector/19
+  response:
+    body:
+      string: '{"number":"19","sector":"Banking"}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '34'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 30 Dec 2020 21:02:14 GMT
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubDomains
+    status:
+      code: 400
+      message: Bad Request
+version: 1
